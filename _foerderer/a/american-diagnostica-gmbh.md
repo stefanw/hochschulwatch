@@ -1,0 +1,5 @@
+---
+Firma: American Diagnostica GmbH
+
+---
+

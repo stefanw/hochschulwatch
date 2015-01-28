@@ -1,0 +1,5 @@
+---
+Firma: www Bitmanager AG
+
+---
+

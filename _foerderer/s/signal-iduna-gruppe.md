@@ -1,0 +1,5 @@
+---
+Firma: SIGNAL IDUNA Gruppe
+
+---
+

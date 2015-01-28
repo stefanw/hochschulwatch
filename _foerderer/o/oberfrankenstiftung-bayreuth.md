@@ -1,0 +1,5 @@
+---
+Firma: Oberfrankenstiftung Bayreuth
+
+---
+

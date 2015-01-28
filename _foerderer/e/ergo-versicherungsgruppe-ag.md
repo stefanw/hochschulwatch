@@ -1,0 +1,5 @@
+---
+Firma: ERGO Versicherungsgruppe AG
+
+---
+

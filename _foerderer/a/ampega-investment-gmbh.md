@@ -1,0 +1,5 @@
+---
+Firma: Ampega Investment GmbH
+
+---
+

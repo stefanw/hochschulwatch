@@ -1,0 +1,5 @@
+---
+Firma: Rhön-Klinikum AG
+
+---
+

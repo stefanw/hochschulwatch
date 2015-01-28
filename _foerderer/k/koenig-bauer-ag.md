@@ -1,0 +1,5 @@
+---
+Firma: Koenig & Bauer AG
+
+---
+

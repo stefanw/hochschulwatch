@@ -1,0 +1,5 @@
+---
+Firma: Vogelsang Stiftung, Essen
+
+---
+

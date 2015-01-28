@@ -1,0 +1,43 @@
+---
+layout: default
+thema: true
+
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4 col-md-12 col-md-offset-0">
+          <h3>Themenseiten</h3>
+        </div>
+        <div class="col-sm-4 col-md-12">
+          <ul class="nav nav-pills nav-stacked">
+
+            <!-- class="active" -->
+
+            <li{% if page.title == "Forschungskooperationen" %} class="active"{% endif %}>
+              <a href="{{ site.baseurl }}themen/forschungskooperationen/">Forschungskooperationen</a>
+            </li>
+            <li{% if page.title == "Stipendien" %} class="active"{% endif %}>
+              <a href="{{ site.baseurl }}themen/stipendien/">Stipendien</a>
+            </li>
+            <li{% if page.title == "Stiftungsprofessuren" %} class="active"{% endif %}>
+              <a href="{{ site.baseurl }}themen/stiftungsprofessuren/">Stiftungsprofessuren</a>
+            </li>
+            <li{% if page.title == "Hochschulräte" %} class="active"{% endif %}>
+              <a href="{{ site.baseurl }}themen/hochschulraete/">Hochschulräte</a>
+              </li>
+              <li{% if page.title == "Sponsoring" %} class="active"{% endif %}>
+              <a href="{{ site.baseurl }}themen/sponsoring/">Sponsoring</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix visible-sm"></div>
+    <div class="col-md-8 col-md-offset-1">
+      {{ content }}
+    </div>
+  </div>
+</div>

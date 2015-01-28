@@ -1,0 +1,5 @@
+---
+Firma: Christian Goswin Stiftung
+
+---
+

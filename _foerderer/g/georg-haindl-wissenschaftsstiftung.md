@@ -1,0 +1,5 @@
+---
+Firma: Georg Haindl Wissenschaftsstiftung
+
+---
+

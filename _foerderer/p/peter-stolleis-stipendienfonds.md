@@ -1,0 +1,5 @@
+---
+Firma: Peter Stolleis-Stipendienfonds
+
+---
+

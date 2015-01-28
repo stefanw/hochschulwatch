@@ -1,0 +1,5 @@
+---
+Firma: Nordwest-Zeitung
+
+---
+

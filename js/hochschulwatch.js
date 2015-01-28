@@ -77,7 +77,7 @@ $(function() {
 			if (i > 10) return;
 			$('#foerderer-search-results').append(
 				'<li>'+
-				'<a href="'+foerdererPath+foerderer.slug+'.html">'+
+				'<a href="'+foerdererPath+foerderer.slug.substr(1)+'">'+
 				foerderer.name+
 				'</a>'+
 				'</li>'
@@ -137,7 +137,7 @@ $(function() {
 	$('.sortable').tablesorter({
 		textExtraction: function(cell) {
 			return $(cell).attr('data-number') || $(cell).html();
-		} 
+		}
 	});
 
 

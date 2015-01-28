@@ -1,0 +1,5 @@
+---
+Firma: 'Narumiya, Generalkonsul Seisuke '
+
+---
+

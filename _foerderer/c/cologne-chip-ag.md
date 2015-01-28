@@ -1,0 +1,5 @@
+---
+Firma: Cologne Chip AG
+
+---
+

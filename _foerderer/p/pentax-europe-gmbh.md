@@ -1,0 +1,5 @@
+---
+Firma: Pentax Europe GmbH
+
+---
+

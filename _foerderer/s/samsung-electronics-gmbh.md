@@ -1,0 +1,5 @@
+---
+Firma: Samsung Electronics GmbH
+
+---
+

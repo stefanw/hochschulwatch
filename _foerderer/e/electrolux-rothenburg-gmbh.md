@@ -1,0 +1,5 @@
+---
+Firma: Electrolux Rothenburg GmbH
+
+---
+

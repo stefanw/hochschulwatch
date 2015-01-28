@@ -1,0 +1,5 @@
+---
+Firma: WGZ Bank AG
+
+---
+

@@ -1,0 +1,138 @@
+---
+---
+
+@import 'bootstrap.min.css';
+
+
+// Hochschulwatch
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+	// fix https://github.com/twbs/bootstrap/issues/10028
+	max-height: none;
+}
+
+.navbar-inverse .dropdown-menu>li>a, .navbar-inverse .dropdown-menu>li>a:focus {
+	padding: 6px 15px;
+}
+
+.navbar-brand {
+	img {
+	margin-top: -5px;
+	width: 45px;
+	}
+}
+
+
+.land-selector {
+	line-height: 1.1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	min-height: 3em;
+	display: flex;
+	align-items: center; // vertical
+}
+
+.navbar-creativecommons {
+	img {
+		width: 80px;
+	}
+}
+.navbar-form input.form-control {
+	@media(min-width:768px) {
+		width: 250px;
+	}
+	@media(min-width:992px) {
+		width: 350px;
+	}
+}
+
+
+.jumboblock {
+	background-color: #FAFAFA;
+	padding: 20px 0 40px 0;
+}
+
+
+@media(max-width:767px) {
+	.table-responsive>.table>thead>tr>th, .table-responsive>.table>tbody>tr>th,
+	.table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td,
+	.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tfoot>tr>td {
+		white-space: normal;
+	}
+}
+
+img.img-icon {
+	width: 20px;
+
+	&.pull-left {
+		margin-right: 10px;
+	}
+}
+
+.btn {
+	vertical-align: center;
+}
+
+footer {
+	position: absolute !important;
+//	height: 100px;
+//	padding-top: 15px;
+}
+
+ul.list-unstyled li + li {
+	margin-top: 15px;
+}
+
+
+table.sortable {
+	th {
+		cursor: pointer;
+	}
+
+	th.headerSortDown, th.headerSortUp {
+		background-color: #eee;
+	}
+}
+
+h4 {
+	margin-top: 1em;
+	font-weight: 700;
+}
+
+
+.w100 {
+	width: 100% !important;
+}
+
+.above40px {
+	margin-top: 40px;
+}
+.above30px {
+	margin-top: 30px;
+}
+.above20px {
+	margin-top: 20px;
+}
+.above10px {
+	margin-top: 10px;
+}
+
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

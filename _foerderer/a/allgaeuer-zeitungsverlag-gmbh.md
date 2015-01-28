@@ -1,0 +1,5 @@
+---
+Firma: Allgäuer Zeitungsverlag GmbH
+
+---
+

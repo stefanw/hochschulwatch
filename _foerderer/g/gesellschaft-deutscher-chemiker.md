@@ -1,0 +1,5 @@
+---
+Firma: Gesellschaft deutscher Chemiker
+
+---
+

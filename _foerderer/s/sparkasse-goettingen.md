@@ -1,0 +1,5 @@
+---
+Firma: Sparkasse Göttingen
+
+---
+

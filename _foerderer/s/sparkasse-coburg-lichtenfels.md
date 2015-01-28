@@ -1,0 +1,5 @@
+---
+Firma: Sparkasse Coburg - Lichtenfels
+
+---
+

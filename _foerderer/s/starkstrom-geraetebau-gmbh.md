@@ -1,0 +1,5 @@
+---
+Firma: Starkstrom Gerätebau GmbH
+
+---
+

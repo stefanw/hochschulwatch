@@ -1,0 +1,5 @@
+---
+Firma: Bischöfliches Ordinariat Mainz
+
+---
+

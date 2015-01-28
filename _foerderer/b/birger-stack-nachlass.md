@@ -1,0 +1,5 @@
+---
+Firma: Birger Stack Nachlass
+
+---
+

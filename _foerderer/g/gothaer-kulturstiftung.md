@@ -1,0 +1,5 @@
+---
+Firma: Gothaer Kulturstiftung
+
+---
+

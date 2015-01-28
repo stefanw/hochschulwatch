@@ -1,0 +1,5 @@
+---
+Firma: Mind-QM GmbH
+
+---
+

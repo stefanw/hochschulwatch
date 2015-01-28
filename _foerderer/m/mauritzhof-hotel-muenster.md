@@ -1,0 +1,5 @@
+---
+Firma: Mauritzhof Hotel Münster
+
+---
+

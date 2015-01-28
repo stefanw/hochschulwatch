@@ -1,0 +1,5 @@
+---
+Firma: 'STADA Arzneimittel AG '
+
+---
+

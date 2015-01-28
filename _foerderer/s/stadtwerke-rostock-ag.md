@@ -1,0 +1,5 @@
+---
+Firma: Stadtwerke Rostock AG
+
+---
+

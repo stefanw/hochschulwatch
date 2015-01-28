@@ -1,0 +1,5 @@
+---
+Firma: Wilhelm Vogel GmbH
+
+---
+

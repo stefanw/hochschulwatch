@@ -1,0 +1,5 @@
+---
+Firma: Dieter-Schwarz-Stiftung
+
+---
+

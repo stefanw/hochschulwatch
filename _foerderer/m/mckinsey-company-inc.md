@@ -1,0 +1,5 @@
+---
+Firma: McKinsey & Company, Inc.
+
+---
+

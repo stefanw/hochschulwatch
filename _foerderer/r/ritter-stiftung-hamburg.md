@@ -1,0 +1,5 @@
+---
+Firma: Ritter-Stiftung, Hamburg
+
+---
+

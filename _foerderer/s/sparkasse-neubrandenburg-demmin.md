@@ -1,0 +1,5 @@
+---
+Firma: Sparkasse Neubrandenburg-Demmin
+
+---
+

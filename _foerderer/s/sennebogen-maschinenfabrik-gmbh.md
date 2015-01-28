@@ -1,0 +1,5 @@
+---
+Firma: Sennebogen Maschinenfabrik GmbH
+
+---
+

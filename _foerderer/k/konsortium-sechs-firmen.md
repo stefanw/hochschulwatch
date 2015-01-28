@@ -1,0 +1,5 @@
+---
+Firma: Konsortium (sechs Firmen)
+
+---
+

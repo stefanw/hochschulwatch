@@ -1,0 +1,5 @@
+---
+Firma: Friede Springer-Stiftung
+
+---
+

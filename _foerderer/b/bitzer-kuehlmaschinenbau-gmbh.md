@@ -1,0 +1,5 @@
+---
+Firma: BITZER Kühlmaschinenbau GmbH
+
+---
+

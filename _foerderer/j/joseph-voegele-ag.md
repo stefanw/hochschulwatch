@@ -1,0 +1,5 @@
+---
+Firma: Joseph Vögele AG
+
+---
+

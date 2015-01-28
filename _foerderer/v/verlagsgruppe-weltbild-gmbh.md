@@ -1,0 +1,5 @@
+---
+Firma: Verlagsgruppe Weltbild GmbH
+
+---
+

@@ -1,0 +1,5 @@
+---
+Firma: Frankfurter Neuen Presse
+
+---
+

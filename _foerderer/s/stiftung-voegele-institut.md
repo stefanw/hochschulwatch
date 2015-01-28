@@ -1,0 +1,5 @@
+---
+Firma: Stiftung Vögele Institut
+
+---
+

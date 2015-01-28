@@ -1,0 +1,5 @@
+---
+Firma: Schellenberger Bürstenfabrik GmbH
+
+---
+

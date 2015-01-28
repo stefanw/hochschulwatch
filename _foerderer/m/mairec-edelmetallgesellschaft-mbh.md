@@ -1,0 +1,5 @@
+---
+Firma: MAIREC Edelmetallgesellschaft mbH
+
+---
+

@@ -1,0 +1,5 @@
+---
+Firma: Kurt-Bösch-Stiftung
+
+---
+

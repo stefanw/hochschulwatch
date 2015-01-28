@@ -1,0 +1,5 @@
+---
+Firma: Lampe & Schwartze, Bremen
+
+---
+

@@ -1,0 +1,5 @@
+---
+Firma: Hans Gottschalk-Stiftung
+
+---
+

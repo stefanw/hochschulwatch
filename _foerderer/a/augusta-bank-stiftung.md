@@ -1,0 +1,5 @@
+---
+Firma: Augusta-Bank Stiftung
+
+---
+

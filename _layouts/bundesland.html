@@ -1,0 +1,50 @@
+---
+layout: default
+bundesland: true
+
+---
+
+
+<div class="container">
+  <div class="col-sm-5 col-md-4 col-lg-3 pull-right">
+    <div class="well">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3">
+          <img src="{{ site.baseurl }}images/land-{{ page.url|replace:"/bundesland/"|replace:"/" }}.png" class="img-responsive w100">
+        </div>
+      </div><!-- row -->
+      <table class="table table-striped above40px">
+        <tr>
+          <th>{{ page.Kategorie }}</th>
+          <td>{{ page.Information }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <h1>{{ page.Bundesland }}</h1>
+
+  {% assign oldchar = '@' %}
+  {% assign landschulen = site.hochschule | where: "bundesland", page.Bundesland %}
+  {% for hochschule in landschulen %}
+    {% assign char = hochschule.Name | truncate: 1,"" %}
+    {% unless oldchar == '' %}
+      {% unless oldchar == char %}
+        </ul>
+      {% endunless %}
+    {% endunless %}
+    {% unless oldchar == char %}
+      <h2 class="above40px">{{ char }}</h2>
+      <ul class="list-unstyled">
+    {% endunless %}
+
+      <li>
+        <a href="{{ site.baseurl }}{{ hochschule.url|replace_first:"/" }}">
+          {{ hochschule.Name }}
+        </a>
+      </li>
+      {% assign oldchar = char %}
+    {% endfor %}
+    </ul>
+
+</div><!-- container -->

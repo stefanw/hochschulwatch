@@ -1,0 +1,5 @@
+---
+Firma: Braunschweiger Zeitungsverlag GmbH
+
+---
+

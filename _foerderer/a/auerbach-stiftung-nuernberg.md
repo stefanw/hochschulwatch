@@ -1,0 +1,5 @@
+---
+Firma: Auerbach Stiftung Nürnberg
+
+---
+

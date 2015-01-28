@@ -1,0 +1,5 @@
+---
+Firma: Westdeutsche Allgemeine Zeitung
+
+---
+

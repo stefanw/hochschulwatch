@@ -1,0 +1,5 @@
+---
+Firma: Stadt-Sparkasse Solingen
+
+---
+

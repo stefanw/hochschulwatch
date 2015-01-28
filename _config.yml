@@ -1,0 +1,37 @@
+markdown: rdiscount
+highlighter: pygments
+baseurl: /hochschulwatch.de/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "foerderer"
+    values:
+      layout: "foerderer"
+  -
+    scope:
+      path: ""
+      type: "bundesland"
+    values:
+      layout: "bundesland"
+  -
+    scope:
+      path: ""
+      type: "hochschule"
+    values:
+      layout: "hochschule"
+
+collections:
+  foerderer:
+    output: true
+    permalink: /foerderer/:name/
+  hochschule:
+    output: true
+    permalink: /hochschule/:name/
+  bundesland:
+    output: true
+    permalink: /bundesland/:name/
+
+sass:
+  style: compressed

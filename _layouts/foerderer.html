@@ -1,0 +1,135 @@
+---
+layout: default
+foerderer: true
+
+---
+
+
+<div class="container">
+  <h1>{{ page.Firma }}</h1>
+
+  {% if content %}
+  <p class="lead">
+    {{ content }}
+  </p>
+  {% endif %}
+
+
+  {% assign hochschulraete = site.data.hochschulraete|where:"Unternehmen",page.Firma %}
+  {% if hochschulraete.size > 0 %}
+  <h2>Hochschulräte <sup><a href="{{ site.baseurl }}themen/hochschulraete/" class="badge">Infos</a></sup></h2>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      {% for hr in hochschulraete %}
+      <tr>
+        <td>{{ hr.Name }}</td>
+        <td>
+          {% assign Uni = site.hochschule | where:"Name",hr.Uni | first %}
+          <a href="{{ site.baseurl }}{{ Uni.url|replace_first:"/" }}">{{ Uni.Name }}</a>
+          {% include source.html source=hr.Quelle right=1 %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  {% endif %}
+
+  {% assign stiftungsprofessuren = site.data.stiftungsprofessuren|where:"Stifter",page.Firma %}
+  {% if stiftungsprofessuren %}
+    <h2>Stiftungsprofessuren <sup><a href="{{ site.baseurl }}themen/stiftungsprofessuren/" class="badge">Infos</a></sup></h2>
+    <ul class="list-unstyled">
+    {% for sp in stiftungsprofessuren %}
+      <li>
+        <dl>
+          <dt>{{ sp["Stiftungsprofessur"] }}</dt>
+          {% assign Uni = site.hochschule | where:"Name",sp.Hochschule | first %}
+          <dd><em>Hochschule:</em> <a href="{{ site.baseurl }}{{ Uni.url|replace_first:"/" }}">{{ Uni.Name }}</a></dd>
+          {% include stiftungsprofessur_details.html sp=sp %}
+        </dl>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+
+  {% assign kooperationen = site.data.kooperation|where:"Förderer",page.Firma %}
+  {% if kooperationen %}
+    <h2>Kooperationen <sup><a href="{{ site.baseurl }}themen/forschungskooperationen/" class="badge">Infos</a></sup></h2>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Hochschule</th>
+            <th class="text-right">Wert</th>
+            <th>
+              Hinweis
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for ko in kooperationen %}
+            {% assign Uni = site.hochschule | where:"uID",kp.uID | first %}
+            <tr>
+              <td><a href="{{ site.baseurl }}{{ Uni.url|replace_first:"/" }}">{{ Uni.Name }}</a></td>
+              <td class="text-right">{{ ko.Wert }}</td>
+              <td>
+                {{ ko.Hinweis }}
+                {% include source.html source=ko.Quelle right=1 %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+
+  {% assign stipendien = site.data.deutschlandstipendien|where:"Firma",page.Firma %}
+  {% if stipendien %}
+    <h2>Deutschlandstipendien <sup><a href="{{ site.baseurl }}themen/stipendien/" class="badge">Infos</a></sup></h2>
+    <ul>
+      {% for stip in stipendien %}
+        {% assign Uni = site.hochschule|where:"uID",stip.uID | first %}
+        <li>
+          <a href="{{ site.baseurl }}{{ Uni.url|replace_first:"/" }}">{{ Uni.Name }}</a>
+          {% include source.html source=stip.Quelle %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% assign sponsoring = site.data.sponsoring|where:"Name des Gebers",page.Firma %}=
+  {% if sponsoring %}
+    <h2>Zuwendungen <sup><a href="{{ site.baseurl }}themen/sponsoring/" class="badge">Infos</a></sup></h2>
+    <div class="table-responsive">
+      <table class="table table-striped sortable">
+        <thead>
+          <tr>
+            <th>Jahr</th>
+            <th>Empfänger</th>
+            <th>Leistung</th>
+            <th>Art</th>
+            <th class="text-right">Wert <span class="caret"></span></th>
+            <th>Hinweis</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for sp in sponsoring %}
+          <tr>
+            <td>{{ sp.Jahr }}</td>
+            {% assign Uni = site.hochschule|where:"Name",stip["Universität"] | first %}
+            <td><a href="{{ site.baseurl }}{{ Uni.url|replace_first:"/" }}">{{ Uni.Name }}</a></td>
+            <td>{{ sp["Geld-/Sachspende"] }}</td>
+            <td>{{ sp["Art der Leistung"] }}</td>
+            <td class="text-right" data-number="{{ sp["Wert"] }}">{{ sp["Wert"] }}</td>
+            <td>
+              {{ sp.Hinweis }}
+              {% include source.html source=sp.Quelle right=1 %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+
+</div><!-- container -->

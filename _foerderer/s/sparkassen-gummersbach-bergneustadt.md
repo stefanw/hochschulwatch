@@ -1,0 +1,5 @@
+---
+Firma: Sparkassen Gummersbach-Bergneustadt
+
+---
+

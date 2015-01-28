@@ -1,0 +1,5 @@
+---
+Firma: Bankhaus Lampe KG
+
+---
+

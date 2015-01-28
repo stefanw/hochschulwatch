@@ -1,0 +1,5 @@
+---
+Firma: Hospitality Alliance AG
+
+---
+

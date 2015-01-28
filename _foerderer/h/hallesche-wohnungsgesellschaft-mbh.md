@@ -1,0 +1,5 @@
+---
+Firma: Hallesche Wohnungsgesellschaft mbH
+
+---
+

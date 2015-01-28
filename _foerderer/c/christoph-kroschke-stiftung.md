@@ -1,0 +1,5 @@
+---
+Firma: Christoph Kroschke Stiftung
+
+---
+

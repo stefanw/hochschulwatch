@@ -1,0 +1,5 @@
+---
+Firma: Friedrich Detering GmbH
+
+---
+

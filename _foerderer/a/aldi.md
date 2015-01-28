@@ -1,0 +1,5 @@
+---
+Firma: ALDI
+
+---
+Aldi Süd

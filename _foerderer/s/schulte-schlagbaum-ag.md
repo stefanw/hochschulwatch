@@ -1,0 +1,5 @@
+---
+Firma: Schulte-Schlagbaum AG
+
+---
+

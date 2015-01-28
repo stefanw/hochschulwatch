@@ -1,0 +1,5 @@
+---
+Firma: Patrizia AG
+
+---
+

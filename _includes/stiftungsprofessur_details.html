@@ -1,0 +1,14 @@
+{% assign sp = include.sp %}
+
+{% if sp.Laufzeit.size > 0 %}
+<dd><em>Laufzeit:</em> {{ sp.Laufzeit }}</dd>
+{% endif %}
+{% if sp["Fördersumme pro Jahr"].size >0 %}
+<dd><em>Fördersumme pro Jahr:</em> {{ sp["Fördersumme pro Jahr"] }}</dd>
+{% endif %}
+{% if sp["Fördersumme insgesamt"].size > 0 %}
+<dd><em>Fördersumme insgesamt:</em> {{ sp["Fördersumme insgesamt"] }}</dd>
+{% endif %}
+{% if sp.Quelle.size > 0 %}
+<dd><em>Quelle:</em> {{ sp.Quelle }}</dd>
+{% endif %}

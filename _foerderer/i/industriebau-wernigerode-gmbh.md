@@ -1,0 +1,5 @@
+---
+Firma: Industriebau Wernigerode GmbH
+
+---
+

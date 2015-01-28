@@ -1,0 +1,5 @@
+---
+Firma: Architektengruppe Schweitzer GmbH
+
+---
+

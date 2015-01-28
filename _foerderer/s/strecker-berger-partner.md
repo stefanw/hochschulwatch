@@ -1,0 +1,5 @@
+---
+Firma: Strecker, Berger + Partner
+
+---
+

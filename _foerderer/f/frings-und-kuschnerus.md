@@ -1,0 +1,5 @@
+---
+Firma: Frings und Kuschnerus
+
+---
+

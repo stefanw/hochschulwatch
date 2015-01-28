@@ -1,0 +1,5 @@
+---
+Firma: Medienhaus Main-Echo
+
+---
+
